@@ -2,39 +2,26 @@
 journal: jacsat
 type: article
 author:
-  - name: Andrew N. Other
-    altaff: A shared footnote
-  - name: Fred T. Secondauthor
-    altaff: "Current address: Some other place, Germany"
-  - name: I. Ken Groupleader
-    altaff: A shared footnote
-    email: \email{i.k.groupleader@unknown.uu}
-    phone: +123 (0)123 4445556
-    fax: +123 (0)123 4445557
-    aff: Department of Chemistry, Unknown University, Unknown Town
-    alsoaff: Department of Chemistry, Second University, Nearby Town
-  - name: Susanne K. Laborator
-    email: \email{s.k.laborator@bigpharma.co}
-    aff: Lead Discovery, BigPharma, Big Town, USA
-  - name: Kay T. Finally
-    aff: Department of Chemistry, Unknown University, Unknown Town
-    alsoaff: Department of Chemistry, Second University, Nearby Town
+  - name: Claire Gillespie
+    email: \email{gillec1@mcmaster.ca}
+    phone: 226-232-4613
+    aff: Department of Chemistry and Chemical Biology, McMaster University, 1280 Main Street West, Hamilton, ON, L8S 4L8
 title:
-  formatted: A demonstration of the \textsf{achemso} \LaTeX\
-   class\footnote{A footnote for the title}
+  formatted: Biochemical verification of tobacco and cannabis smoking status and dependence via characterization of salivary metabolome
   short: An \textsf{achemso} demo
-abbr: IR,NMR,UV
-keywords: American Chemical Society, \LaTeX
+abbr: MSI-CE-MS, CUD, FTND
+keywords: tobacco, cannabis, biomarker, metabolome, drugs of abuse
 abstract: |
-  This is an example document for the \textsf{achemso} documentclass, intended for submissions to the American Chemical Society for publication. The class is based on the standard \LaTeXe\ \textsf{report} file, and does not seek to reproduce the appearanceof a published paper.
-
-  This is an abstract for the \textsf{achemso} document class demonstration document.  An abstract is only allowed for certain manuscript types.  The selection of \texttt{journal} and \texttt{manuscript} will determine if an abstract is valid.  If not, the class will issue an appropriate error.This is the abstract.
-
+  Cannabis and tobacco are two of the most widely consumed narcotics globally and pose significant harms from smoke exposures, including chronic disease burden, drug addiction and/or cognitive impairment in vulnerable populations. Current methods that assess nicotine or cannabis dependence rely solely on standardized questionnaires that are prone to bias and misreporting. Thus, there is a need for an objective and non-invasive approach for the assessment of smoking status. Herein we introduce a high-throughput method for characterizing the salivary metabolome from a cohort of participants involved in a Trier Social Stress Test to examine how smoking and cannabis use affect cognition. Following a sample workup of diluted saliva filtrate, targeted profiling of the salivary metabolome was conducted using multisegment injection-capillary electrophoresis mass-spectrometry (MSI-CE-MS) with full-scan data acquisition. Multivariate and univariate statistical analyses of saliva samples will result in the identification of biomarkers associated with smoking status when comparing self-reported non-smokers (n=12), cannabis only (n=36), and cannabis-tobacco users (n=15). Temporal changes in the salivary metabolome will be explored by MSI-CE-MS prior to and following standardized psychosocial stress experiments among participants to identify biomarkers associated with cognitive dysfunction. This method will confirm recent exposure to other drugs of abuse that may confound behavioral responses to psychosocial stress and not captured by standardized questionnaires, including nicotine, opioids and benzodiazepenes. This research will elucidate the underlying mechanisms of stress intolerance among cannabis users while identifying salivary biomarkers associated with cannabis and tobacco dependence, including screening for concomitant use of other drugs prone to abuse.
 bibliography: acstest.bib
 csl: american-chemical-society.csl
 output: rticles::acs_article
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
+```{=tex}
 \begin{tocentry}
 Some journals require a graphical entry for the Table of Contents.
 This should be laid out ``print ready'' so that the sizing of the
@@ -52,13 +39,131 @@ content is too big: instead it will overflow the edge of the box.
 This box and the associated title will always be printed on a
 separate page at the end of the document.
 \end{tocentry}
+```
+# Background and Introduction
 
-# Introduction
-This is a paragraph of text to fill the introduction of the
-demonstration file.  The demonstration file attempts to show the
-modifications of the standard \LaTeX\ macros that are implemented by
-the \textsf{achemso} class.  These are mainly concerned with content,
-as opposed to appearance.
+Cannabis and tobacco are among the top three most prevalent drugs used
+globally, with 2.5% and 22.3% of the global population consuming
+cannabis and tobacco in 2020.^1,2^ Cause for concern arises given
+tobacco smoking remains the primary cause of preventable death in
+Canada, with 17% of smoking related deaths being caused by cancers,
+cardiovascular and respiratory diseases.^3^ Moreover, smoking poses a
+serious financial burden on the Canadian health care system, with the
+total costs of tobacco use being \$16.2 billion in 2012.^4^ Furthermore,
+cannabis has become the second most commonly used drug of abuse after
+alcohol in Canada, notably among young adults. According to the 2021
+Canadian cannabis survey, 37% and 49% of consumers are ages 16-19 and
+20-24, respectively with 19% reporting the intake of marijuana on a
+daily basis.^5^ With this rampant increase in cannabis use among young
+Canadian adults, there is growing concern on the prevalence of cannabis
+use disorder since it can contribute to addiction with deleterious
+psychiatric effects that impair normal cognitive function.^6^
+Specifically, prolonged, and frequent use of cannabis can alter brain
+circuitry wherein individuals may experience distress intolerance
+disorder, which is the inability to experience unpleasant, adverse, or
+uncomfortable emotions.^7^ With both cannabis and tobacco use raising
+concerns in terms of the physical and mental harms among vulnerable
+populations, there is a need to determine the susceptibility an
+individual may have in depending on these narcotics. However, current
+methods for the assessment of nicotine or cannabis dependence rely
+solely on standardized questionnaires that are prone to bias and
+misreporting. Clinicians would thus benefit from a non-invasive yet
+objective identification of cannabis and tobacco smoking status while
+examining their putative harmful effects to better guide more
+personalized therapeutic interventions.
+
+In order for a clinician to determine the magnitude of dependence that
+an individual may experience towards cannabis and/or tobacco, they
+employ standardized tests such as the Fagerstrom Test for Nicotine
+Dependence (FTND) and the Cannabis Use Disorder Identification Test
+(CUDIT). The FTND test encompasses 6 questions wherein the individual
+must check off their smoking habits, with the sum of their answers
+resulting in an FTND score. Dependence scores can range from 0-2 being
+very low, 3-5 being medium and 6-10 being very high.^8^ Furthermore, the
+CUDIT is a questionnaire with 8 total questions where the individuals
+must rank their cannabis use habits, and their resulting sum CUDIT score
+is subsequently tabulated. According to literature, individuals with
+CUDIT scores of 12 and below have low cannabis dependence, whereas
+individuals with CUDIT scores of 13 and above indicate a susceptibility
+for cannabis use disorder with the recommendation of further
+intervention.9 However, given that there are societal expectations among
+the population, being that it is frowned upon to use drugs as a coping
+mechanism, individuals may feel pressured to falsify their answers to
+these standardized tests, resulting in lower FTND or CUDIT scores than
+expected. Hence, there is a need for a biological confirmation of the
+self-reported information to compliment the data obtained by
+standardized questionnaires. Therefore, the goals of this study was
+through the characterization of the salivary metabolome of control,
+cannabis, and cannabis tobacco users, first confirm that nicotine can be
+considered an exogenous biomarker of tobacco smoking status, and second
+identify a marker that differentiates the sub-groups based on smoking
+status while reflecting the harmful effects of habitual cannabis and/or
+tobacco use. Finally, investigations on the mechanisms of cannabis use
+disorder will be conducted through the analysis of individuals from the
+cannabis only sub-group at baseline to determine whether there is an
+underlying change among individuals with high versus low CUDIT scores.
+
+To determine an individual's metabolism, the salivary metabolome of the
+participants was characterized. Metabolomics is an emerging field in
+functional genomics which encompasses the analysis of low molecular
+weight metabolites in complex biological samples using new advances in
+high resolution mass spectrometry (MS).^10^ The human metabolome
+comprises both endogenous and exogenous metabolites (including drugs of
+abuse), which are influenced by both genetic factors and environmental
+exposures.^11^ Previous research has proposed that the salivary
+metabolome may provide unique insights into behavioral responses to
+psychological stress using a non-invasive biofluid.^12^ Furthermore,
+although untargeted salivary metabolomic studies have been applied to
+identify novel biomarkers associated with cancer and oral health
+studies,^10,13^ no report to date has examined its potential for
+characterizing stress intolerance in high-risk individuals with cannabis
+use disorder as compared to non-users or infrequent cannabis users not
+prone to dependence. In this thesis, one will develop a robust protocol
+for untargeted metabolite profiling from unstimulated saliva specimens
+using multisegment injection-capillary electrophoresis-mass spectrometry
+(MSI-CE-MS) as a high throughput method for biomarker discovery with
+stringent quality control.^14,15^
+
+Current methods for untargeted metabolite analysis include NMR and MS
+coupled with chromatography, with the gold standard being LC-MS due to
+its broad coverage of analytes with high efficiency separations, and
+highly selective results.^16^ However, the limitations of these methods
+involve the long processing times which are limited to low sample
+throughput as well as the generated chromatograms may provide low
+resolution peaks, making it difficult to identify metabolites as well as
+the number of metabolites present in the data set.^17^ In contrast,
+multisegment injection-capillary electrophoresis-mass spectrometry
+(MSI-CE-MS) utilizes a multiplexed separation platform for
+metabolomics,^18^ allowing for higher sample throughput, improved
+quality control and lower sample volume requirements.^19^ This method
+employs an isocratic aqueous buffer with a coaxial sheath liquid
+interface to provide a homogenous solution for electromigration and
+ionization under steady state conditions,^14^ with customized serial
+injections accelerating the potential for biomarker discovery and robust
+inter-batch adjustment possible for use in large scale metabolomic
+studies.20 Data acquisition using MSI-CE-MS first involves injecting 13
+samples each separated by the same volume background electrolyte (BGE)
+spacer into the capillary. The application of a voltage initiates the
+flow of analytes from the injection site to the electrospray ionization
+(ESI) source on the time-of-flight mass spectrometer (TOF-MS). This
+gentle ionization source uses electrical energy to assist the transfer
+of ions from solution to the gaseous phase through protonation in
+positive mode and deprotonation in negative mode.^21^ Analytes are
+subsequently separated by their mass and charge using an untargeted
+full-scan approach in the TOF-MS. A full-scan data acquisition total ion
+electropherogram (TIE) is the result of one run in MSI-CE-MS. From the
+TIE, one can extract the m/z of metabolites of interest in a targeted
+manner, which generates extracted ion electropherograms (EIE) for both
+positive and negative mode. Each EIE should show thirteen peaks
+pertaining to the 13 injections from the capillary. In order to confirm
+a metabolites identity, one can refer to its mass spectrum, where a
+prominent molecular ion peak should be present at the same mass to
+charge (m/z) as the metabolite, as well as a less prominent C-13 peak
+approximately one mass unit away. Further confirmation can be given when
+examining the mass resolution (∆m) of the metabolite of interest.
+Finally, MSI-CE-MS provides the ability to have a quality control sample
+in each run, whose relative peak areas (RPAs) are compared to monitor
+the performance of the platform and any potential instrumental drift
 
 # Results and discussion
 
@@ -71,40 +176,37 @@ given if these should not be present.
 
 ## References
 
-The class makes various changes to the way that references are
-handled.  The class loads \textsf{natbib}, and also the
-appropriate bibliography style.  References can be made using
-the normal method; the citation should be placed before any
-punctuation, as the class will move it if using a superscript
-citation style [@Garnier2007].
-The use of \textsf{natbib} allows the use of the various citation
-commands of that package have shown
-something.  Long lists of authors will be
+The class makes various changes to the way that references are handled.
+The class loads \textsf{natbib}, and also the appropriate bibliography
+style. References can be made using the normal method; the citation
+should be placed before any punctuation, as the class will move it if
+using a superscript citation style [@Garnier2007]. The use of
+\textsf{natbib} allows the use of the various citation commands of that
+package have shown something. Long lists of authors will be
 automatically truncated in most article formats, but not in
-supplementary information or reviews. If you
-encounter problems with the citation macros, please check that
-your copy of \textsf{natbib} is up to date. The demonstration
-database file \texttt{achemso-demo.bib} shows how to complete
-entries correctly. Notice that ``\latin{et al.}'' is auto-formatted
-using the \texttt{\textbackslash latin} command.
+supplementary information or reviews. If you encounter problems with the
+citation macros, please check that your copy of \textsf{natbib} is up to
+date. The demonstration database file \texttt{achemso-demo.bib} shows
+how to complete entries correctly. Notice that \`\`\latin{et al.}'' is
+auto-formatted using the \texttt{\textbackslash latin} command.
 
-Multiple citations to be combined into a list can be given as
-a single citation.  This uses the \textsf{mciteplus} package.
-Citations other than the first of the list should be indicated
-with a star.
+Multiple citations to be combined into a list can be given as a single
+citation. This uses the \textsf{mciteplus} package. Citations other than
+the first of the list should be indicated with a star.
 
-The class also handles notes to be added to the bibliography.  These
-should be given in place in the document.  As with
-citations, the text should be placed before punctuation.  A note is
-also generated if a citation has an optional note.  This assumes that
-the whole work has already been cited: odd numbering will result if
-this is not the case .
+The class also handles notes to be added to the bibliography. These
+should be given in place in the document. As with citations, the text
+should be placed before punctuation. A note is also generated if a
+citation has an optional note. This assumes that the whole work has
+already been cited: odd numbering will result if this is not the case .
 
 ## Floats
 
-New float types are automatically set up by the class file.  The
-means graphics are included as follows (Scheme \ref{sch:example}).  As
-illustrated, the float is ``here'' if possible.
+New float types are automatically set up by the class file. The means
+graphics are included as follows (Scheme \ref{sch:example}). As
+illustrated, the float is \`\`here'' if possible.
+
+```{=tex}
 \begin{scheme}
   Your scheme graphic would go here: \texttt{.eps} format\\
   for \LaTeX\, or \texttt{.pdf} (or \texttt{.png}) for pdf\LaTeX\\
@@ -115,11 +217,12 @@ illustrated, the float is ``here'' if possible.
   \caption{An example scheme}
   \label{sch:example}
 \end{scheme}
-
+```
 ```{r,echo=FALSE,fig.cap='test'}
 plot(1:10)
 ```
 
+```{=tex}
 \begin{figure}
   As well as the standard float types \texttt{table}\\
   and \texttt{figure}, the class also recognises\\
@@ -127,34 +230,32 @@ plot(1:10)
   \caption{An example figure}
   \label{fgr:example}
 \end{figure}
-
+```
 Charts, figures and schemes do not necessarily have to be labelled or
-captioned.  However, tables should always have a title. It is
-possible to include a number and label for a graphic without any
-title, using an empty argument to the \texttt{\textbackslash caption}
-macro.
+captioned. However, tables should always have a title. It is possible to
+include a number and label for a graphic without any title, using an
+empty argument to the \texttt{\textbackslash caption} macro.
 
-The use of the different floating environments is not required, but
-it is intended to make document preparation easier for authors. In
-general, you should place your graphics where they make logical
-sense; the production process will move them if needed.
+The use of the different floating environments is not required, but it
+is intended to make document preparation easier for authors. In general,
+you should place your graphics where they make logical sense; the
+production process will move them if needed.
 
 ## Math(s)
 
 The \textsf{achemso} class does not load any particular additional
-support for mathematics.  If packages such as \textsf{amsmath} are
-required, they should be loaded in the preamble.  However,
-the basic \LaTeX\ math(s) input should work correctly without
-this.  Some inline material $y = mx + c$ or $1 + 1 = 2$
-followed by some display. $$ A = \pi r^2 $$
+support for mathematics. If packages such as \textsf{amsmath} are
+required, they should be loaded in the preamble. However, the basic
+\LaTeX math(s) input should work correctly without this. Some inline
+material $y = mx + c$ or $1 + 1 = 2$ followed by some display.
+$$ A = \pi r^2 $$
 
-It is possible to label equations in the usual way (Eq. \ref{eqn:example}).
-\begin{equation}
+It is possible to label equations in the usual way (Eq.
+\ref{eqn:example}). \begin{equation}
   \frac{\mathrm{d}}{\mathrm{d}x} \, r^2 = 2r \label{eqn:example}
-\end{equation}
-This can also be used to have equations containing graphical
-content. To align the equation number with the middle of the graphic,
-rather than the bottom, a minipage may be used.
+\end{equation} This can also be used to have equations containing
+graphical content. To align the equation number with the middle of the
+graphic, rather than the bottom, a minipage may be used.
 \begin{equation}
   \begin{minipage}[c]{0.80\linewidth}
     \centering
@@ -168,9 +269,11 @@ rather than the bottom, a minipage may be used.
 
 # Experimental
 
-The usual experimental details should appear here.  This could
-include a table, which can be referenced as Table \ref{tbl:example}.
-Notice that the caption is positioned at the top of the table.
+The usual experimental details should appear here. This could include a
+table, which can be referenced as Table \ref{tbl:example}. Notice that
+the caption is positioned at the top of the table.
+
+```{=tex}
 \begin{table}
   \caption{An example table}
   \label{tbl:example}
@@ -185,11 +288,13 @@ Notice that the caption is positioned at the top of the table.
     \hline
   \end{tabular}
 \end{table}
+```
+Adding notes to tables can be complicated. Perhaps the easiest method is
+to generate these using the basic
+\texttt{\textbackslash textsuperscript} and \texttt{\textbackslash emph}
+macros, as illustrated (Table \ref{tbl:notes}).
 
-Adding notes to tables can be complicated.  Perhaps the easiest
-method is to generate these using the basic
-\texttt{\textbackslash textsuperscript} and
-\texttt{\textbackslash emph} macros, as illustrated (Table \ref{tbl:notes}).
+```{=tex}
 \begin{table}
   \caption{A table with notes}
   \label{tbl:notes}
@@ -205,37 +310,38 @@ method is to generate these using the basic
   \textsuperscript{\emph{a}} Some text;
   \textsuperscript{\emph{b}} Some more text.
 \end{table}
-
+```
 The example file also loads the optional \textsf{mhchem} package, so
 that formulas are easy to input: \texttt{\textbackslash ce\{H2SO4\}}
-gives \ce{H2SO4}.  See the use in the bibliography file (when using
+gives \ce{H2SO4}. See the use in the bibliography file (when using
 titles in the references section).
 
 The use of new commands should be limited to simple things which will
-not interfere with the production process.  For example,
-\texttt{\textbackslash mycommand} has been defined in this example,
-to give italic, mono-spaced text: \mycommand{some text}.
+not interfere with the production process. For example,
+\texttt{\textbackslash mycommand} has been defined in this example, to
+give italic, mono-spaced text: \mycommand{some text}.
 
 # Extra information when writing JACS Communications
 
-When producing communications for \emph{J.~Am.\ Chem.\ Soc.}, the
-class will automatically lay the text out in the style of the
-journal. This gives a guide to the length of text that can be
-accommodated in such a publication. There are some points to bear in
-mind when preparing a JACS Communication in this way.  The layout
-produced here is a \emph{model} for the published result, and the
-outcome should be taken as a \emph{guide} to the final length. The
-spacing and sizing of graphical content is an area where there is
-some flexibility in the process.  You should not worry about the
-space before and after graphics, which is set to give a guide to the
-published size. This is very dependant on the final published layout.
+When producing communications for \emph{J.~Am.\ Chem.\ Soc.}, the class
+will automatically lay the text out in the style of the journal. This
+gives a guide to the length of text that can be accommodated in such a
+publication. There are some points to bear in mind when preparing a JACS
+Communication in this way. The layout produced here is a \emph{model}
+for the published result, and the outcome should be taken as a
+\emph{guide} to the final length. The spacing and sizing of graphical
+content is an area where there is some flexibility in the process. You
+should not worry about the space before and after graphics, which is set
+to give a guide to the published size. This is very dependant on the
+final published layout.
 
 You should be able to use the same source to produce a JACS
-Communication and a normal article.  For example, this demonstration
-file will work with both \texttt{type=article} and
-\texttt{type=communication}. Sections and any abstract are
-automatically ignored, although you will get warnings to this effect.
+Communication and a normal article. For example, this demonstration file
+will work with both \texttt{type=article} and
+\texttt{type=communication}. Sections and any abstract are automatically
+ignored, although you will get warnings to this effect.
 
+```{=tex}
 \begin{acknowledgement}
 
 Please use ``The authors thank \ldots'' rather than ``The
@@ -248,7 +354,8 @@ class, which is reflected in all of the different demonstrations
 shown in this document.
 
 \end{acknowledgement}
-
+```
+```{=tex}
 \begin{suppinfo}
 
 This will usually read something like: ``Experimental procedures and
@@ -256,6 +363,5 @@ characterization data for all new compounds. The class will
 automatically add a sentence pointing to the information on-line:
 
 \end{suppinfo}
+```
 ## References
-
-
