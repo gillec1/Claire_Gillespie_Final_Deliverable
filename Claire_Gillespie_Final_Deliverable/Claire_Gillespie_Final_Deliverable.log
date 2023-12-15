@@ -1,0 +1,16 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.15)  15 DEC 2023 12:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Claire_Gillespie_Final_Deliverable.tex
+(Claire_Gillespie_Final_Deliverable.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+
+
+! Sorry, but C:\Users\BRITZL~1\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe did not succeed.
+
+! The log file hopefully contains the information to get MiKTeX going again:
+
+!   C:\Users\Britz Lab\AppData\Local\MiKTeX\miktex\log\pdflatex.log
+! pdflatex: major issue: So far, you have not checked for MiKTeX updates.
