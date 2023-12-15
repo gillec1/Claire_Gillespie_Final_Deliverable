@@ -86,22 +86,23 @@ is subsequently tabulated. According to literature, individuals with
 CUDIT scores of 12 and below have low cannabis dependence, whereas
 individuals with CUDIT scores of 13 and above indicate a susceptibility
 for cannabis use disorder with the recommendation of further
-intervention.9 However, given that there are societal expectations among
-the population, being that it is frowned upon to use drugs as a coping
-mechanism, individuals may feel pressured to falsify their answers to
-these standardized tests, resulting in lower FTND or CUDIT scores than
-expected. Hence, there is a need for a biological confirmation of the
-self-reported information to compliment the data obtained by
-standardized questionnaires. Therefore, the goals of this study was
-through the characterization of the salivary metabolome of control,
-cannabis, and cannabis tobacco users, first confirm that nicotine can be
-considered an exogenous biomarker of tobacco smoking status, and second
-identify a marker that differentiates the sub-groups based on smoking
-status while reflecting the harmful effects of habitual cannabis and/or
-tobacco use. Finally, investigations on the mechanisms of cannabis use
-disorder will be conducted through the analysis of individuals from the
-cannabis only sub-group at baseline to determine whether there is an
-underlying change among individuals with high versus low CUDIT scores.
+intervention.^9^ However, given that there are societal expectations
+among the population, being that it is frowned upon to use drugs as a
+coping mechanism, individuals may feel pressured to falsify their
+answers to these standardized tests, resulting in lower FTND or CUDIT
+scores than expected. Hence, there is a need for a biological
+confirmation of the self-reported information to compliment the data
+obtained by standardized questionnaires. Therefore, the goals of this
+study was through the characterization of the salivary metabolome of
+control, cannabis, and cannabis tobacco users, first confirm that
+nicotine can be considered an exogenous biomarker of tobacco smoking
+status, and second identify a marker that differentiates the sub-groups
+based on smoking status while reflecting the harmful effects of habitual
+cannabis and/or tobacco use. Finally, investigations on the mechanisms
+of cannabis use disorder will be conducted through the analysis of
+individuals from the cannabis only sub-group at baseline to determine
+whether there is an underlying change among individuals with high versus
+low CUDIT scores.
 
 To determine an individual's metabolism, the salivary metabolome of the
 participants was characterized. Metabolomics is an emerging field in
@@ -141,29 +142,30 @@ interface to provide a homogenous solution for electromigration and
 ionization under steady state conditions,^14^ with customized serial
 injections accelerating the potential for biomarker discovery and robust
 inter-batch adjustment possible for use in large scale metabolomic
-studies.20 Data acquisition using MSI-CE-MS first involves injecting 13
-samples each separated by the same volume background electrolyte (BGE)
-spacer into the capillary. The application of a voltage initiates the
-flow of analytes from the injection site to the electrospray ionization
-(ESI) source on the time-of-flight mass spectrometer (TOF-MS). This
-gentle ionization source uses electrical energy to assist the transfer
-of ions from solution to the gaseous phase through protonation in
-positive mode and deprotonation in negative mode.^21^ Analytes are
-subsequently separated by their mass and charge using an untargeted
-full-scan approach in the TOF-MS. A full-scan data acquisition total ion
-electropherogram (TIE) is the result of one run in MSI-CE-MS. From the
-TIE, one can extract the m/z of metabolites of interest in a targeted
-manner, which generates extracted ion electropherograms (EIE) for both
-positive and negative mode. Each EIE should show thirteen peaks
-pertaining to the 13 injections from the capillary. In order to confirm
-a metabolites identity, one can refer to its mass spectrum, where a
-prominent molecular ion peak should be present at the same mass to
-charge (m/z) as the metabolite, as well as a less prominent C-13 peak
-approximately one mass unit away. Further confirmation can be given when
-examining the mass resolution (∆m) of the metabolite of interest.
-Finally, MSI-CE-MS provides the ability to have a quality control sample
-in each run, whose relative peak areas (RPAs) are compared to monitor
-the performance of the platform and any potential instrumental drift
+studies.^20^ Data acquisition using MSI-CE-MS first involves injecting
+13 samples each separated by the same volume background electrolyte
+(BGE) spacer into the capillary. The application of a voltage initiates
+the flow of analytes from the injection site to the electrospray
+ionization (ESI) source on the time-of-flight mass spectrometer
+(TOF-MS). This gentle ionization source uses electrical energy to assist
+the transfer of ions from solution to the gaseous phase through
+protonation in positive mode and deprotonation in negative mode.^21^
+Analytes are subsequently separated by their mass and charge using an
+untargeted full-scan approach in the TOF-MS. A full-scan data
+acquisition total ion electropherogram (TIE) is the result of one run in
+MSI-CE-MS. From the TIE, one can extract the m/z of metabolites of
+interest in a targeted manner, which generates extracted ion
+electropherograms (EIE) for both positive and negative mode. Each EIE
+should show thirteen peaks pertaining to the 13 injections from the
+capillary. In order to confirm a metabolites identity, one can refer to
+its mass spectrum, where a prominent molecular ion peak should be
+present at the same mass to charge (m/z) as the metabolite, as well as a
+less prominent C-13 peak approximately one mass unit away. Further
+confirmation can be given when examining the mass resolution of the
+metabolite of interest. Finally, MSI-CE-MS provides the ability to have
+a quality control sample in each run, whose relative peak areas (RPAs)
+are compared to monitor the performance of the platform and any
+potential instrumental drift
 
 # Results and discussion
 
@@ -176,29 +178,83 @@ given if these should not be present.
 
 ## References
 
-The class makes various changes to the way that references are handled.
-The class loads \textsf{natbib}, and also the appropriate bibliography
-style. References can be made using the normal method; the citation
-should be placed before any punctuation, as the class will move it if
-using a superscript citation style [@Garnier2007]. The use of
-\textsf{natbib} allows the use of the various citation commands of that
-package have shown something. Long lists of authors will be
-automatically truncated in most article formats, but not in
-supplementary information or reviews. If you encounter problems with the
-citation macros, please check that your copy of \textsf{natbib} is up to
-date. The demonstration database file \texttt{achemso-demo.bib} shows
-how to complete entries correctly. Notice that \`\`\latin{et al.}'' is
-auto-formatted using the \texttt{\textbackslash latin} command.
-
-Multiple citations to be combined into a list can be given as a single
-citation. This uses the \textsf{mciteplus} package. Citations other than
-the first of the list should be indicated with a star.
-
-The class also handles notes to be added to the bibliography. These
-should be given in place in the document. As with citations, the text
-should be placed before punctuation. A note is also generated if a
-citation has an optional note. This assumes that the whole work has
-already been cited: odd numbering will result if this is not the case .
+1.  Cannabis. (2023). World Health Organization.
+2.  Tobacco. (2023). World Health Organization.
+3.  (2011). Smoking and Mortality. Canada.ca. Government of Canada.
+4.  (2017). The Costs of Tobacco Use in Canada, 2012. Canada.ca.
+    Government of Canada.
+5.  
+    (2021) Canadian Cannabis Survey 2021: Summary. Canada.ca. Government
+           of Canada.
+6.  Patel, J., & Marwaha, R. (2022) Cannabis use disorder. Eng. J. Med.
+7.  Volkow, N. D., Baler, R. D., Weiss, S. R. B., & Compton, W. M.
+    (2014) Adverse health effects of marijuana use. Eng. J. Med. 370
+    (23), 2219-2227.
+8.  Lim, K.H., The, C.H., Lim, H.L., Khoo, Y.Y., Lau, K.J., Yy, C., Mohd
+    Ghazalig, S., Kee Cc, C.C., Lim, K.K., Ibrahim, N., and Yusoff, F.M.
+    (2016). Reliability and Validity of the Fagerstrom Test for
+    Cigarettes Dependence among Malaysian Adolescents. Iran J Public
+    Health. 45(1):104-5.
+9.  Bonn-Miller, M.O., Heinz, A.J., Smith, E.V., Bruno, R., and
+    Adamson, S. (2016). Preliminary Development of a Brief Cannabis Use
+    Disorder Screening Tool: The Cannabis Use Disorder Identification
+    Test Short-Form. Cannabis Cannabinoid Res. 1 (1):252-261.
+10. Liebsch, C., Pitchika, V., Pink, C., Samietz, S., Kastenmüller, G.,
+    Artati, A., Suhre, K., Adamski, J., Nauck, M., Völzke, H.,
+    Friedrich, N., Kocher, T., Holtfreter, B., & Pietzner, M. (2019).
+    The Saliva Metabolome in Association to Oral Health Status. J. of
+    Dent. Res. 98 (6), 642--651.
+11. Patti G. J., Yanes O., & Siuzdak G. 2012. Innovation: metabolomics:
+    the apogee of the omics trilogy. Nat. Rev. Mol. Cell. Biol. 13 (4),
+    263--269.
+12. Gardner, A., Carpenter, G., & So, P. W. (2020). Salivary
+    metabolomics: From diagnostic biomarker discovery to investigating
+    biological function. Metab. 10 (2).
+13. Kuwabara, H., Katsumata, K., Iwabuchi, A., Udo, R., Tago, T.,
+    Kasahara, K., Mazaki, J., Enomoto, M., Ishizaki, T., Soya, R.,
+    Kaneko, M., Ota, S., Enomoto, A., Soga, T., Tomita, M., Sunamura,
+    M., Tsuchida, A., Sugimoto, M., & Nagakawa, Y. (2022). Salivary
+    metabolomics with machine learning for colorectal cancer detection.
+    Canc. Sci. 113 (9), 3234--3243.
+14. DiBattista, A., Rampersaud, D., Lee, H., Kim, M., &
+    Britz-McKibbin, P. (2017). High Throughput Screening Method for
+    Systematic Surveillance of Drugs of Abuse by Multisegment
+    Injection--Capillary Electrophoresis--Mass Spectrometry. J. Anal.
+    Chem. 89 (21), 11853-11861.
+15. Shanmuganathan M., Macklai S., Barrenas Cárdenas C., Kroezen Z., Kim
+    M., Zizek W., Lee H., & Britz-McKibbin P. (2019). High-throughput
+    and Comprehensive Drug Surveillance Using Multisegment
+    Injection-capillary Electrophoresis Mass Spectrometry. J. Vis. Exp.
+    (146).
+16. Fraisier-Vannier, O., Chervin, J., Cabanac, G., Puech, V., Fournier,
+    S., Durand, V., Amiel, A., André, O., Benamar, O. A., Dumas, B.,
+    Tsugawa, H., & Marti, G. (2020). MS-CleanR: A Feature-Filtering
+    Workflow for Untargeted LC-MS Based Metabolomics. Analytical
+    Chemistry, 92(14), 9971--9981.
+17. Azab, S., Ly, R., & Britz-Mckibbin, P. (2019). Robust Method for
+    High-Throughput Screening of Fatty Acids by Multisegment
+    Injection-Nonaqueous Capillary Electrophoresis-Mass Spectrometry
+    with Stringent Quality Control. Analytical Chemistry, 91(3),
+    2329--2336
+18. Kuehnbaum, N. L., Kormendi, A., and Britz-McKibbin, P. (2013).
+    Multisegment Injection-Capillary Electrophoresis-Mass Spectrometry:
+    a High-Throughput Platform for Metabolomics with High Data Fidelity.
+    Anal. Chem. 85, 10664--10669. <doi:10.1021/ac403171u>
+19. Nori de Macedo, A., Mathiaparanam, S., Brick, L., Keenan, K.,
+    Gonska, T., Pedder, L., et al. (2017). The Sweat Metabolome of
+    Screen-Positive Cystic Fibrosis Infants: Revealing Mechanisms beyond
+    Impaired Chloride Transport. ACS Cent. Sci. 3, 904--913.
+    <doi:10.1021/acscentsci.7b00299>
+20. Shanmuganathan, S., Kroezen, Z., Gill, B., Azab, S., de Souza, R.
+    J., Teo, K. K., et al. (2021). The Maternal Serum Metabolome by
+    Multisegment Injection-Capillary Electrophoresis-Mass Spectrometry:
+    A Standardized Data Workflow for Large- Scale Epidemiological
+    Studies. Nat. Prot. 16, 1966--1994. <doi:10.1038/s41596->
+    020-00475-0
+21. Ho, C.S., Lam, C.W., Chan, M.H., Cheung, R.C., Law, L.K., Lit, L.C.,
+    Ng, K.F., Suen, M.W., and Tai, H.L. (2003). Electrospray ionisation
+    mass spectrometry: principles and clinical applications. Clin
+    Biochem Rev. 24(1):3-12.
 
 ## Floats
 
