@@ -40,7 +40,7 @@ This box and the associated title will always be printed on a
 separate page at the end of the document.
 \end{tocentry}
 ```
-# Background and Introduction
+# Study Motivation
 
 Cannabis and tobacco are among the top three most prevalent drugs used
 globally, with 2.5% and 22.3% of the global population consuming
@@ -72,6 +72,8 @@ objective identification of cannabis and tobacco smoking status while
 examining their putative harmful effects to better guide more
 personalized therapeutic interventions.
 
+# Current Methods for Diagnosing Cannabis and Tobacco Dependence
+
 In order for a clinician to determine the magnitude of dependence that
 an individual may experience towards cannabis and/or tobacco, they
 employ standardized tests such as the Fagerstrom Test for Nicotine
@@ -93,7 +95,7 @@ answers to these standardized tests, resulting in lower FTND or CUDIT
 scores than expected. Hence, there is a need for a biological
 confirmation of the self-reported information to compliment the data
 obtained by standardized questionnaires. Therefore, the goals of this
-study was through the characterization of the salivary metabolome of
+study were through the characterization of the salivary metabolome of
 control, cannabis, and cannabis tobacco users, first confirm that
 nicotine can be considered an exogenous biomarker of tobacco smoking
 status, and second identify a marker that differentiates the sub-groups
@@ -103,6 +105,8 @@ of cannabis use disorder will be conducted through the analysis of
 individuals from the cannabis only sub-group at baseline to determine
 whether there is an underlying change among individuals with high versus
 low CUDIT scores.
+
+# Metabolomic Characterization
 
 To determine an individual's metabolism, the salivary metabolome of the
 participants was characterized. Metabolomics is an emerging field in
@@ -125,56 +129,67 @@ using multisegment injection-capillary electrophoresis-mass spectrometry
 (MSI-CE-MS) as a high throughput method for biomarker discovery with
 stringent quality control.^14,15^
 
+# Instrument Methodology
+
 Current methods for untargeted metabolite analysis include NMR and MS
-coupled with chromatography, with the gold standard being LC-MS due to
-its broad coverage of analytes with high efficiency separations, and
-highly selective results.^16^ However, the limitations of these methods
-involve the long processing times which are limited to low sample
-throughput as well as the generated chromatograms may provide low
-resolution peaks, making it difficult to identify metabolites as well as
-the number of metabolites present in the data set.^17^ In contrast,
-multisegment injection-capillary electrophoresis-mass spectrometry
-(MSI-CE-MS) utilizes a multiplexed separation platform for
-metabolomics,^18^ allowing for higher sample throughput, improved
-quality control and lower sample volume requirements.^19^ This method
-employs an isocratic aqueous buffer with a coaxial sheath liquid
-interface to provide a homogenous solution for electromigration and
-ionization under steady state conditions,^14^ with customized serial
-injections accelerating the potential for biomarker discovery and robust
-inter-batch adjustment possible for use in large scale metabolomic
-studies.^20^ Data acquisition using MSI-CE-MS first involves injecting
-13 samples each separated by the same volume background electrolyte
-(BGE) spacer into the capillary. The application of a voltage initiates
-the flow of analytes from the injection site to the electrospray
-ionization (ESI) source on the time-of-flight mass spectrometer
-(TOF-MS). This gentle ionization source uses electrical energy to assist
-the transfer of ions from solution to the gaseous phase through
-protonation in positive mode and deprotonation in negative mode.^21^
-Analytes are subsequently separated by their mass and charge using an
-untargeted full-scan approach in the TOF-MS. A full-scan data
-acquisition total ion electropherogram (TIE) is the result of one run in
-MSI-CE-MS. From the TIE, one can extract the m/z of metabolites of
-interest in a targeted manner, which generates extracted ion
-electropherograms (EIE) for both positive and negative mode. Each EIE
-should show thirteen peaks pertaining to the 13 injections from the
-capillary. In order to confirm a metabolites identity, one can refer to
-its mass spectrum, where a prominent molecular ion peak should be
+coupled with chromatography, with the gold standard being liquid
+chromatography-mass spectrometry (LC-MS) due to its broad coverage of
+analytes with high efficiency separations, and highly selective
+results.^16^ However, the limitations of these methods involve the long
+processing times which are limited to low sample throughput as well as
+the generated chromatograms may provide low resolution peaks, making it
+difficult to identify metabolites as well as the number of metabolites
+present in the data set.^17^ In contrast, multisegment
+injection-capillary electrophoresis-mass spectrometry (MSI-CE-MS)
+utilizes a multiplexed separation platform for metabolomics,^18^
+allowing for higher sample throughput, improved quality control and
+lower sample volume requirements.^19^ This method employs an isocratic
+aqueous buffer with a coaxial sheath liquid interface to provide a
+homogenous solution for electromigration and ionization under steady
+state conditions,^14^ with customized serial injections accelerating the
+potential for biomarker discovery and robust inter-batch adjustment
+possible for use in large scale metabolomic studies.^20^ Data
+acquisition using MSI-CE-MS first involves injecting 13 samples each
+separated by the same volume background electrolyte (BGE) spacer into
+the capillary (Figure 1). The application of a voltage initiates the
+flow of analytes from the injection site to the electrospray ionization
+(ESI) source on the time-of-flight mass spectrometer (TOF-MS). This
+gentle ionization source uses electrical energy to assist the transfer
+of ions from solution to the gaseous phase through protonation in
+positive mode and deprotonation in negative mode.^21^ Analytes are
+subsequently separated by their mass and charge using an untargeted
+full-scan approach in the TOF-MS. A full-scan data acquisition total ion
+electropherogram (TIE) is the result of one run in MSI-CE-MS (Figure 2).
+From the TIE, one can extract the m/z of metabolites of interest in a
+targeted manner, which generates extracted ion electropherograms (EIE)
+for both positive and negative mode (Figures 3 & 4). Each EIE should
+show thirteen peaks pertaining to the 13 injections from the capillary.
+In order to confirm a metabolites identity, one can refer to its mass
+spectrum (Figure 5), where a prominent molecular ion peak should be
 present at the same mass to charge (m/z) as the metabolite, as well as a
 less prominent C-13 peak approximately one mass unit away. Further
 confirmation can be given when examining the mass resolution of the
-metabolite of interest. Finally, MSI-CE-MS provides the ability to have
-a quality control sample in each run, whose relative peak areas (RPAs)
-are compared to monitor the performance of the platform and any
-potential instrumental drift
+metabolite of interest (Figure 5). Finally, MSI-CE-MS provides the
+ability to have a quality control sample in each run, whose relative
+peak areas (RPAs) are compared to monitor the performance of the
+platform and any potential instrumental drift.
 
-# Results and discussion
+# Future Work
 
-## Outline
+Future work will involve the statistical analysis of the various
+metabolites of interest found through data processing the 206 biological
+samples and 18 pooled quality control samples. Trends within the three
+sub-groups of individuals, being control, cannabis users, and
+cannabis-tobacco users, will be investigated pre and post the Trier
+Social Stress Test to determine whether their salivary metabolomes can
+be differentiated at baseline, or whether the stress test affects one
+group significantly. Further analysis of cannabinoid content will
+follow, using LC-MS to confirm that salivary cannabinoids can be
+exogenous biomarkers for cannabis use while also providing more insight
+on cannabis dependence through the complimentary relation with reported
+CUDIT scores.
 
-The document layout should follow the style of the journal concerned.
-Where appropriate, sections and subsections should be added in the
-normal way. If the class options are set correctly, warnings will be
-given if these should not be present.
+# Supplementary Information
 
 ## References
 
@@ -189,7 +204,7 @@ given if these should not be present.
 6.  Patel, J., & Marwaha, R. (2022) Cannabis use disorder. Eng. J. Med.
 7.  Volkow, N. D., Baler, R. D., Weiss, S. R. B., & Compton, W. M.
     (2014) Adverse health effects of marijuana use. Eng. J. Med. 370
-    (23), 2219-2227.
+           (23), 2219-2227.
 8.  Lim, K.H., The, C.H., Lim, H.L., Khoo, Y.Y., Lau, K.J., Yy, C., Mohd
     Ghazalig, S., Kee Cc, C.C., Lim, K.K., Ibrahim, N., and Yusoff, F.M.
     (2016). Reliability and Validity of the Fagerstrom Test for
@@ -256,168 +271,24 @@ given if these should not be present.
     mass spectrometry: principles and clinical applications. Clin
     Biochem Rev. 24(1):3-12.
 
-## Floats
+## Figures
 
-New float types are automatically set up by the class file. The means
-graphics are included as follows (Scheme \ref{sch:example}). As
-illustrated, the float is \`\`here'' if possible.
-
-```{=tex}
-\begin{scheme}
-  Your scheme graphic would go here: \texttt{.eps} format\\
-  for \LaTeX\, or \texttt{.pdf} (or \texttt{.png}) for pdf\LaTeX\\
-  \textsc{ChemDraw} files are best saved as \texttt{.eps} files:\\
-  these can be scaled without loss of quality, and can be\\
-  converted to \texttt{.pdf} files easily using \texttt{eps2pdf}.\\
-  %\includegraphics{graphic}
-  \caption{An example scheme}
-  \label{sch:example}
-\end{scheme}
-```
-```{r,echo=FALSE,fig.cap='test'}
-plot(1:10)
+```{r, echo=FALSE, fig.cap="Figure 1. Visualization of an injection sequence used in MSI-CE-MS. Thirteen samples are injected hydrodynamically to the capillary, each separated by the same volume background electrolyte spacer that is injected electrokinetically. A voltage applied to the capillary transports the injections to the electrospray ionization source where metabolites are protonated (in positive mode) or deprotonated (in negative mode). Full-scan data acquisition of the salivary metabolome is done using the time-of-flight mass spectrometer.", out.width = '100%'}
+knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure1.png")
 ```
 
-```{=tex}
-\begin{figure}
-  As well as the standard float types \texttt{table}\\
-  and \texttt{figure}, the class also recognises\\
-  \texttt{scheme}, \texttt{chart} and \texttt{graph}.
-  \caption{An example figure}
-  \label{fgr:example}
-\end{figure}
+```{r, echo=FALSE, fig.cap="Figure 2. Total ion electropherogram (TIE) of a full-scan data acquisition of the salivary metabolome. TIE shows all features from the entire run versus time. Each run was approximately 32 minutes total.", out.width = '100%'}
+knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure2.png")
 ```
-Charts, figures and schemes do not necessarily have to be labelled or
-captioned. However, tables should always have a title. It is possible to
-include a number and label for a graphic without any title, using an
-empty argument to the \texttt{\textbackslash caption} macro.
 
-The use of the different floating environments is not required, but it
-is intended to make document preparation easier for authors. In general,
-you should place your graphics where they make logical sense; the
-production process will move them if needed.
-
-## Math(s)
-
-The \textsf{achemso} class does not load any particular additional
-support for mathematics. If packages such as \textsf{amsmath} are
-required, they should be loaded in the preamble. However, the basic
-\LaTeX math(s) input should work correctly without this. Some inline
-material $y = mx + c$ or $1 + 1 = 2$ followed by some display.
-$$ A = \pi r^2 $$
-
-It is possible to label equations in the usual way (Eq.
-\ref{eqn:example}). \begin{equation}
-  \frac{\mathrm{d}}{\mathrm{d}x} \, r^2 = 2r \label{eqn:example}
-\end{equation} This can also be used to have equations containing
-graphical content. To align the equation number with the middle of the
-graphic, rather than the bottom, a minipage may be used.
-\begin{equation}
-  \begin{minipage}[c]{0.80\linewidth}
-    \centering
-    As illustrated here, the width of \\
-    the minipage needs to allow some  \\
-    space for the number to fit in to.
-    %\includegraphics{graphic}
-  \end{minipage}
-  \label{eqn:graphic}
-\end{equation}
-
-# Experimental
-
-The usual experimental details should appear here. This could include a
-table, which can be referenced as Table \ref{tbl:example}. Notice that
-the caption is positioned at the top of the table.
-
-```{=tex}
-\begin{table}
-  \caption{An example table}
-  \label{tbl:example}
-  \begin{tabular}{ll}
-    \hline
-    Header one  & Header two  \\
-    \hline
-    Entry one   & Entry two   \\
-    Entry three & Entry four  \\
-    Entry five  & Entry five  \\
-    Entry seven & Entry eight \\
-    \hline
-  \end{tabular}
-\end{table}
+```{r, echo=FALSE, fig.cap="Figure 3. Extracted ion electropherogram (EIE) of glutamic acid in positive mode. EIE shows 13 peaks total pertaining to the injection sequence in Figure 1. The variation shown in relative peak area of the injections is likely due to natural biological variation.", out.width = '100%'}
+knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure3.png")
 ```
-Adding notes to tables can be complicated. Perhaps the easiest method is
-to generate these using the basic
-\texttt{\textbackslash textsuperscript} and \texttt{\textbackslash emph}
-macros, as illustrated (Table \ref{tbl:notes}).
 
-```{=tex}
-\begin{table}
-  \caption{A table with notes}
-  \label{tbl:notes}
-  \begin{tabular}{ll}
-    \hline
-    Header one                            & Header two \\
-    \hline
-    Entry one\textsuperscript{\emph{a}}   & Entry two  \\
-    Entry three\textsuperscript{\emph{b}} & Entry four \\
-    \hline
-  \end{tabular}
-
-  \textsuperscript{\emph{a}} Some text;
-  \textsuperscript{\emph{b}} Some more text.
-\end{table}
+```{r, echo=FALSE, fig.cap="Figure 4. Extracted ion electropherogram (EIE) of N-acetylneuraminate in negative mode. EIE shows 13 peaks total pertaining to the injection sequence in Figure 1. The variation shown in relative peak area of the injections is likely due to natural biological variation.", out.width = '100%'}
+knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure4.png")
 ```
-The example file also loads the optional \textsf{mhchem} package, so
-that formulas are easy to input: \texttt{\textbackslash ce\{H2SO4\}}
-gives \ce{H2SO4}. See the use in the bibliography file (when using
-titles in the references section).
 
-The use of new commands should be limited to simple things which will
-not interfere with the production process. For example,
-\texttt{\textbackslash mycommand} has been defined in this example, to
-give italic, mono-spaced text: \mycommand{some text}.
-
-# Extra information when writing JACS Communications
-
-When producing communications for \emph{J.~Am.\ Chem.\ Soc.}, the class
-will automatically lay the text out in the style of the journal. This
-gives a guide to the length of text that can be accommodated in such a
-publication. There are some points to bear in mind when preparing a JACS
-Communication in this way. The layout produced here is a \emph{model}
-for the published result, and the outcome should be taken as a
-\emph{guide} to the final length. The spacing and sizing of graphical
-content is an area where there is some flexibility in the process. You
-should not worry about the space before and after graphics, which is set
-to give a guide to the published size. This is very dependant on the
-final published layout.
-
-You should be able to use the same source to produce a JACS
-Communication and a normal article. For example, this demonstration file
-will work with both \texttt{type=article} and
-\texttt{type=communication}. Sections and any abstract are automatically
-ignored, although you will get warnings to this effect.
-
-```{=tex}
-\begin{acknowledgement}
-
-Please use ``The authors thank \ldots'' rather than ``The
-authors would like to thank \ldots''.
-
-The author thanks Mats Dahlgren for version one of \textsf{achemso},
-and Donald Arseneau for the code taken from \textsf{cite} to move
-citations after punctuation. Many users have provided feedback on the
-class, which is reflected in all of the different demonstrations
-shown in this document.
-
-\end{acknowledgement}
+```{r, echo=FALSE, fig.cap="Figure 5. Mass spectrum of glutamic acid in positive mode. Mass spectrums are used to confirm a metabolites identity, shown by a prominent molecular ion ([M+H]+) peak at the metabolites m/z as well as a less prominent C-13 peak ([M+H+1]+) approximately one mass unit away. Further confirmation of its identity can be shown in examining its small resolution.", out.width = '100%'}
+knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure5.png")
 ```
-```{=tex}
-\begin{suppinfo}
-
-This will usually read something like: ``Experimental procedures and
-characterization data for all new compounds. The class will
-automatically add a sentence pointing to the information on-line:
-
-\end{suppinfo}
-```
-## References
