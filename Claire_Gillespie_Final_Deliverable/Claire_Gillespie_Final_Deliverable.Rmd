@@ -254,6 +254,8 @@ CUDIT scores.
     mass spectrometry: principles and clinical applications. Clin
     Biochem Rev. 24(1):3-12.
 
+\newpage
+
 ## Figures
 
 ![Visualization of an injection sequence used in MSI-CE-MS. Thirteen
