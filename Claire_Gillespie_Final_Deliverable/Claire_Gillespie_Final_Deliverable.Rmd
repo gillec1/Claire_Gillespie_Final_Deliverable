@@ -21,25 +21,6 @@ editor_options:
     wrap: 72
 ---
 
-```{=tex}
-\begin{tocentry}
-Some journals require a graphical entry for the Table of Contents.
-This should be laid out ``print ready'' so that the sizing of the
-text is correct.
-
-Inside the \texttt{tocentry} environment, the font used is Helvetica
-8\,pt, as required by \emph{Journal of the American Chemical
-Society}.
-
-The surrounding frame is 9\,cm by 3.5\,cm, which is the maximum
-permitted for  \emph{Journal of the American Chemical Society}
-graphical table of content entries. The box will not resize if the
-content is too big: instead it will overflow the edge of the box.
-
-This box and the associated title will always be printed on a
-separate page at the end of the document.
-\end{tocentry}
-```
 # Study Motivation
 
 Cannabis and tobacco are among the top three most prevalent drugs used
@@ -273,7 +254,7 @@ CUDIT scores.
 
 ## Figures
 
-![**Figure 1.** Visualization of an injection sequence used in
+![Visualization of an injection sequence used in
 MSI-CE-MS. Thirteen samples are injected hydrodynamically to the
 capillary, each separated by the same volume background electrolyte
 spacer that is injected electrokinetically. A voltage applied to the
@@ -283,25 +264,25 @@ deprotonated (in negative mode). Full-scan data acquisition of the
 salivary metabolome is done using the time-of-flight mass
 spectrometer.](Figure1.png)
 
-![**Figure 2.** Total ion electropherogram (TIE) of a full-scan data
+![Total ion electropherogram (TIE) of a full-scan data
 acquisition of the salivary metabolome. TIE shows all features from the
 entire run versus time. Each run was approximately 32 minutes
 total.](Figure2.png)
 
-![**Figure 3.** Extracted ion electropherogram (EIE) of glutamic acid in
+![Extracted ion electropherogram (EIE) of glutamic acid in
 positive mode. EIE shows 13 peaks total pertaining to the injection
 sequence in Figure 1. The variation shown in relative peak area of the
 injections is likely due to natural biological variation.](Figure3.png)
 
-![**Figure 4** Extracted ion electropherogram (EIE) of
+![Extracted ion electropherogram (EIE) of
 N-acetylneuraminate in negative mode. EIE shows 13 peaks total
 pertaining to the injection sequence in Figure 1. The variation shown in
 relative peak area of the injections is likely due to natural biological
 variation.](Figure4.png)
 
-![**Figure 5** Mass spectrum of glutamic acid in positive mode. Mass
+![Mass spectrum of glutamic acid in positive mode. Mass
 spectrums are used to confirm a metabolites identity, shown by a
-prominent molecular ion ([M+H]^+^) peak at the metabolites m/z as well as
-a less prominent C-13 peak ([M+H+1]^+^) approximately one mass unit
+prominent molecular ion ([M+H]^+^) peak at the metabolites m/z as well
+as a less prominent C-13 peak ([M+H+1]^+^) approximately one mass unit
 away. Further confirmation of its identity can be shown in examining its
 small resolution.](Figure5.png)
