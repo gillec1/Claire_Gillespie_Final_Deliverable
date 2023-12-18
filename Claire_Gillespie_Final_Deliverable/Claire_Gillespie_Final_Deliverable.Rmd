@@ -273,22 +273,35 @@ CUDIT scores.
 
 ## Figures
 
-```{r, echo=FALSE, fig.cap="Figure 1. Visualization of an injection sequence used in MSI-CE-MS. Thirteen samples are injected hydrodynamically to the capillary, each separated by the same volume background electrolyte spacer that is injected electrokinetically. A voltage applied to the capillary transports the injections to the electrospray ionization source where metabolites are protonated (in positive mode) or deprotonated (in negative mode). Full-scan data acquisition of the salivary metabolome is done using the time-of-flight mass spectrometer.", out.width = '100%'}
-knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure1.png")
-```
+![**Figure 1.** Visualization of an injection sequence used in
+MSI-CE-MS. Thirteen samples are injected hydrodynamically to the
+capillary, each separated by the same volume background electrolyte
+spacer that is injected electrokinetically. A voltage applied to the
+capillary transports the injections to the electrospray ionization
+source where metabolites are protonated (in positive mode) or
+deprotonated (in negative mode). Full-scan data acquisition of the
+salivary metabolome is done using the time-of-flight mass
+spectrometer.](Figure1.png)
 
-```{r, echo=FALSE, fig.cap="Figure 2. Total ion electropherogram (TIE) of a full-scan data acquisition of the salivary metabolome. TIE shows all features from the entire run versus time. Each run was approximately 32 minutes total.", out.width = '100%'}
-knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure2.png")
-```
+![**Figure 2.** Total ion electropherogram (TIE) of a full-scan data
+acquisition of the salivary metabolome. TIE shows all features from the
+entire run versus time. Each run was approximately 32 minutes
+total.](Figure2.png)
 
-```{r, echo=FALSE, fig.cap="Figure 3. Extracted ion electropherogram (EIE) of glutamic acid in positive mode. EIE shows 13 peaks total pertaining to the injection sequence in Figure 1. The variation shown in relative peak area of the injections is likely due to natural biological variation.", out.width = '100%'}
-knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure3.png")
-```
+![**Figure 3.** Extracted ion electropherogram (EIE) of glutamic acid in
+positive mode. EIE shows 13 peaks total pertaining to the injection
+sequence in Figure 1. The variation shown in relative peak area of the
+injections is likely due to natural biological variation.](Figure3.png)
 
-```{r, echo=FALSE, fig.cap="Figure 4. Extracted ion electropherogram (EIE) of N-acetylneuraminate in negative mode. EIE shows 13 peaks total pertaining to the injection sequence in Figure 1. The variation shown in relative peak area of the injections is likely due to natural biological variation.", out.width = '100%'}
-knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure4.png")
-```
+![**Figure 4** Extracted ion electropherogram (EIE) of
+N-acetylneuraminate in negative mode. EIE shows 13 peaks total
+pertaining to the injection sequence in Figure 1. The variation shown in
+relative peak area of the injections is likely due to natural biological
+variation.](Figure4.png)
 
-```{r, echo=FALSE, fig.cap="Figure 5. Mass spectrum of glutamic acid in positive mode. Mass spectrums are used to confirm a metabolites identity, shown by a prominent molecular ion ([M+H]+) peak at the metabolites m/z as well as a less prominent C-13 peak ([M+H+1]+) approximately one mass unit away. Further confirmation of its identity can be shown in examining its small resolution.", out.width = '100%'}
-knitr::include_graphics("C:/Users/Britz Lab/OneDrive/Desktop/Claire_Gillespie_Final_Deliverable/Figures/Figure5.png")
-```
+![**Figure 5** Mass spectrum of glutamic acid in positive mode. Mass
+spectrums are used to confirm a metabolites identity, shown by a
+prominent molecular ion ([M+H]^+^) peak at the metabolites m/z as well as
+a less prominent C-13 peak ([M+H+1]^+^) approximately one mass unit
+away. Further confirmation of its identity can be shown in examining its
+small resolution.](Figure5.png)
