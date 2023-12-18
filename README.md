@@ -6,4 +6,4 @@ The purpose of this repository is to summarize some of the research I've been do
 
 This repository contains:
 
--   A five page paper containing an Abstract, Introduction, Experimental, Discussion, and Future work.
+-   A six page paper containing an Abstract, Study Motivation, Background Information, Instrument Methodology, and Future work.
